@@ -1,4 +1,5 @@
 # Convex-Hull-Detection
+Finds the convex hull from a given array of pair of points.
 
 ## Steps followed:
 <ol>
