@@ -91,7 +91,7 @@ int main()
     {
         hull.push_back(v[start]);
         next=(start+1)%n;
-        // replaces 'next' point with the one which has more slope that current one
+        // replaces 'next' point with the one which has less slope than current one
         for(int i=0; i<n; i++)
         {
             if(orientation(v[start], v[i], v[next])==2) next=i;
