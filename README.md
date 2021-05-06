@@ -7,7 +7,7 @@ Finds the convex hull from a given array of pair of points.
 <li> Iterated through all of the pairs of the points and found the intersection point of the 2 lines formed by 2 pairs of points. </li>
 <li> If the intersection point (in step-2) is in the range (found in step-1) of the image, then only storing it in a vector. </li>
   <li> Started from the leftmost point and iterated till it reaches from where it started. </li>
-<li> Selected next point based on its orientation, if the ith point makes more slope with 'start' point then 'next' point is replaced with 'i' point. </li>
+<li> Selected next point based on its orientation, if the ith point makes less slope with 'start' point then 'next' point is replaced with 'i' point. </li>
 </ol>
 
 ## Visualization of the points found:
